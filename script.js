@@ -48,7 +48,7 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".message").textContent = "Start guessing..!";
   document.querySelector(".display_score").textContent = score;
   document.querySelector(".guess").value = "";
-  document.querySelector(".header_box").style.width = "150px";
-  document.querySelector("body").style.backgroundColor = "#86AB89";
-  document.querySelector(".check").style.backgroundColor = "#86AB89";
+  document.querySelector(".header_box").style.width = "100px";
+  document.querySelector("body").style.backgroundColor = "#cdb599ff";
+  document.querySelector(".number").textContent = "?";
 });

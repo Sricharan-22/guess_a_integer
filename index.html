@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess the number</title>
+  </head>
+  <body>
+    <!-- navBar -->
+    <div class="navBar">
+      <div class="navBar_button">
+        <button class="again">Again !</button>
+      </div>
+      <div class="navBar_description">
+        <h3>Just B/W 1 to 20</h3>
+      </div>
+    </div>
+    <!-- header -->
+    <div class="header">
+      <div class="header_title">
+        <h1>Time to guess a number :)</h1>
+      </div>
+      <div class="header_line"></div>
+      <div class="header_box"><p class="number">?</p></div>
+    </div>
+    <!-- display -->
+    <div class="display">
+      <div class="display_input">
+        <div class="display_checkbox">
+          <input type="number" class="guess" />
+        </div>
+        <div class="display_checkbutton">
+          <button class="check">Check</button>
+        </div>
+      </div>
+      <div class="display_value">
+        <h2 class="message">Start guessing..!</h2>
+        <h3 class="score">
+          Score:&nbsp;<span class="display_score"> 20</span>
+        </h3>
+        <h3 class="highest score">
+          Highest Score:&nbsp;<span class="display_hs">0</span>
+        </h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
